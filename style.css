@@ -1,0 +1,74 @@
+body{
+    /* background-color: #607D8B; */
+    font-family: 'Work Sans', sans-serif;
+    color: #212121;
+    line-height: 40px;
+}
+ul{
+    list-style: none;
+}
+ul li {
+    margin-bottom: 15px;
+}
+h1{
+    font-weight: 500;
+}
+h2{
+    font-weight: 400;
+}
+.avatar{
+    width: 200px;
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.3); */
+}
+.Post{
+    font-weight: 300;
+}
+/* .context{
+    background-color: #455A64;
+    border: 1px solid #212121;
+    border-radius: 10px;
+} */
+.Education, .Additional, .Experience, .skills, .languages, .qualities, .information{
+    font-size: 25px;
+}
+section#resume{
+	background-image:url('/Backgr.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+    background-position:center;
+    margin: 0;
+    padding: 0px;
+}
+.link{
+    cursor: pointer;
+    padding: 0;
+}
+a{
+    display: flex;
+    align-items: center;
+}
+a:hover {
+    text-decoration: none;
+}
+a:visited{
+    color: #212121;
+}
+.fas, .fab{
+    font-size: 25px;
+    padding-right: 10px;
+}
+#link:hover, .link:hover{
+    color: #448AFF;
+}
+.fa-envelope{
+    color: #C03B2B;
+}
+.fa-linkedin{
+    color: #2977C9;
+}
+.fa-facebook-square{
+    color: #4267B2;
+}
+.fa-twitter-square{
+    color: #4DABF5;
+}

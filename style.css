@@ -32,7 +32,7 @@ h2{
     font-size: 25px;
 }
 section#resume{
-	background-image:url('/Backgr.jpg');
+	background-image:url('Backgr.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
     background-position:center;
